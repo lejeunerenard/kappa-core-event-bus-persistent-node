@@ -1,4 +1,4 @@
-const EventBus = require('kappa-core-event-bus')
+const EventBus = require('@lejeunerenard/kappa-core-event-bus')
 
 module.exports = class EventBusPersistentNode {
   constructor (name, storage = 'event-bus-persistent') {
