@@ -1,12 +1,22 @@
 {
-  "name": "event-bus-persistent-node",
+  "name": "@lejeunerenard/kappa-core-event-bus-persistent-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "A persistent storage kappa-event-bus node.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "kappa-core",
+    "multifeed",
+    "kappa",
+    "event bus",
+    "hypercore",
+    "peer-to-peer"
+  ],
   "author": "Sean Zellmer <sean@lejeunerenard.com> (http://lejeunerenard.com/)",
-  "license": "MIT"
+  "license": "ISC",
+  "dependencies": {
+    "@lejeunerenard/kappa-core-event-bus": "^1.0.0"
+  }
 }
